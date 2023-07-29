@@ -13,10 +13,20 @@ const data = [
   { id: 3, name: 'jeena rituparna'}
 ];
 
+const data1 = [
+  { id: 1, name: 'lona' },
+  { id: 2, name: 'pinku' },
+  { id: 3, name: 'kanha'}
+];
+
 app.get('/search/v1', (req, res) => {
   res.json(data);
 });
 
+app.get('/learner/v2', (req, res) => {
+  res.json(data1);
+});
+
 app.listen(port, () => {
-  console.log(`API server is running on http://localhost:${port}`);
+  console.log(`API server is running on http://3.93.80.142:${port}`);
 });
