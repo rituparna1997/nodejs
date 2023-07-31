@@ -9,7 +9,7 @@ app.use(cors());
 // Sample data to serve as an example API response
 const data = [
   { id: 1, name: 'Rituparna Majhi' },
-  { id: 2, name: 'Shiba prasad' },
+  { id: 2, name: 'kiye gote' },
   { id: 3, name: 'jeena rituparna'}
 ];
 
